@@ -10,16 +10,18 @@ body {
   @apply font-sans;
 }
 
-h1 {
-  color: #9EE493
+h2 {
+  /* color: #9ee493; */
+  color: #336699;
 }
 
-ul {
-  @apply list-disc list-inside;
+h3 {
+  /* color: #daf7dc; */
+  color: #86BBD8;
 }
 
-.myShadow {
-  box-shadow: inset 0px 0px 10px whitesmoke;
+p {
+  color: white;
 }
 
 /* .start {
