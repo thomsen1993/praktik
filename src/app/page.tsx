@@ -14,20 +14,22 @@ export default function Home() {
   return (
     <main className="max-w-screen-lg mx-auto px-5 my-10">
       <header className="bg-neutral-800 rounded-lg border-2 border-neutral-700 p-5">
-        <Image
-          src={benny}
-          alt=""
-          width={250}
-          height={250}
-          className="rounded-full border-y-4 border-b-blue-800/70 border-t-blue-500/70 mb-5 mx-auto p-1"
-        ></Image>
-        <div className="border-y-2 border-neutral-700 rounded-md w-full text-center p-5">
+        <figure className="border-y-4 border-b-blue-800/70 border-t-blue-500/70 rounded-md shadow-lg shadow-white/10 bg-neutral-950 p-5 mb-5 w-max mx-auto">
+          <Image
+            src={benny}
+            alt=""
+            width={250}
+            height={250}
+            className="rounded-full border-2 border-neutral-700"
+          ></Image>
+        </figure>
+        <div className="border-y-2 border-neutral-700 rounded-md w-full text-center bg-neutral-950 shadow-lg shadow-white/10 p-5">
           <TextGenerateEffect words={words} />
-          <p className="text-neutral-400">Skolepraktik rapporten</p>
-          <p className="text-neutral-500">02-April / 21-juni-2024</p>
+          <h2 className="">Skolepraktik rapporten</h2>
+          <h3 className=" text-sm">02-April / 21-juni-2024</h3>
         </div>
       </header>
-      <section className="start">
+      <section className="grid md:grid-cols-2 gap-5">
         {data.slice(0, 4).map((item) => (
           <Sections
             key={item.id}
@@ -43,8 +45,8 @@ export default function Home() {
             dataVersion={item.database.version}
           ></Sections>
         ))}
-        <div className="bg-gradient-to-t from-neutral-800 to-neutral-900 rounded-lg border-2 border-neutral-700 p-5">
-          <div className="sm:flex items-center gap-5 text-center sm:text-start border-y-2 border-neutral-700 rounded-md w-full p-5">
+        <div className="md:col-span-2 bg-gradient-to-t from-neutral-800 to-neutral-900 rounded-lg border-2 border-neutral-700 p-5 mt-5">
+          <div className="sm:flex items-center gap-5 text-center sm:text-start border-y-2 border-neutral-700 rounded-md bg-neutral-950 w-full p-5">
             <p className="text-3xl w-max border-y-2 border-b-blue-800/70 border-t-blue-500/70 rounded-full font-bold py-2 px-4 mx-auto sm:mx-0">
               {lastData.id}
             </p>

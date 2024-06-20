@@ -23,7 +23,7 @@ export function MeteorsDemo() {
               />
             </svg>
           </div>
-          <Meteors number={30} />
+          <Meteors number={50} />
         </div>
       </div>
     </div>
