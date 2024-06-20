@@ -1,5 +1,7 @@
 import React, { FC } from "react";
 
+import { Meteors } from "@/components/ui/meteors";
+
 interface Props {
   id: number;
   title: string;
@@ -26,9 +28,10 @@ const Sections: FC<Props> = ({
   dataVersion,
 }) => {
   return (
-    <a href={link} target="_blank" rel="noopener noreferrer">
+    <a href={link} target="_blank" rel="noopener noreferrer" className="">
       <div className="relative group bg-neutral-900 rounded-lg border-2 border-neutral-700 bg-gradient-to-t from-neutral-800 to-neutral-900 p-5 my-10">
-        <div className="sm:flex items-center gap-5 text-center sm:text-start border-y-2 border-neutral-700 rounded-md p-5 mb-5">
+        <div className="sm:flex items-center gap-5 text-center sm:text-start border-y-2 border-neutral-700 rounded-md p-5 mb-5 relative overflow-hidden">
+          <Meteors />
           <p className="text-3xl w-max border-y-2 border-b-blue-800/70 border-t-blue-500/70 rounded-full font-bold py-2 px-4 mx-auto sm:mx-0">
             {id}
           </p>

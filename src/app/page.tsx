@@ -5,11 +5,15 @@ import Sections from "@/components/Sections";
 
 import data from "../../public/data.json";
 
+import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
+
 export default function Home() {
   const lastData = data[data.length - 1];
+
+  const words = `Benny Thomsen`;
   return (
     <main className="max-w-screen-lg mx-auto px-5 my-10">
-      <header className="bg-gradient-to-t from-neutral-800 to-neutral-900 rounded-lg border-2 border-neutral-700 p-5">
+      <header className="bg-neutral-800 rounded-lg border-2 border-neutral-700 p-5">
         <Image
           src={benny}
           alt=""
@@ -18,8 +22,9 @@ export default function Home() {
           className="rounded-full border-y-4 border-b-blue-800/70 border-t-blue-500/70 mb-5 mx-auto p-1"
         ></Image>
         <div className="border-y-2 border-neutral-700 rounded-md w-full text-center p-5">
-          <h1 className="text-3xl font-bold">Benny Thomsen</h1>
+          <TextGenerateEffect words={words} />
           <p className="text-neutral-400">Skolepraktik rapporten</p>
+          <p className="text-neutral-500">02-April / 21-juni-2024</p>
         </div>
       </header>
       <section className="start">
