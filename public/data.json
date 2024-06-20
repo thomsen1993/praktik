@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "title": "Videnbutikken projekt",
+        "link": "https://github.com/bennythomsen",
+        "date": "08-April-2023 til 03-Maj-2023",
+        "content": "Jeg forsøgte at lave en webshop med det formål, at kunden kunne bestille noget og derefter ville der blive sendt en mail til ejeren af shoppen, hvorefter kunden skulle gå ned i butikken og hente sin ordre. Projektet var for en virksomhed i Grenå, der sælger slik, boligindretning, vin osv. Jeg nåede ikke at få det lavet, da jeg ikke havde tiden, fordi jeg brugte meget tid på at designe siden. Så jeg endte med at lave en hjemmeside, hvor ejeren kan vise de varer, han sælger i sin butik, og et dashboard til at lægge nye varer ind og sende det til databasen.",
+        "rating": "★★☆☆☆",
+        "developed": {
+            "name": "Next.js",
+            "version": "14.3.0"
+        },
+        "database": {
+            "name": "AirTable",
+            "version": "0.12.2"
+        }
+    },
+    {
+        "id": 2,
+        "title": "Min egen portfolio/cv",
+        "link": "https://github.com/thomsen1993/portfolio",
+        "date": "06-Maj-2023 til 24-Maj-2023",
+        "content": "Dette projekt var min personlige portfolio og CV hjemmeside. Formålet var at fremvise mine færdigheder og projekter på en professionel måde. Jeg arbejdede meget med animationer og oversættelse til tre sprog, hvilket gjorde hjemmesiden interaktiv og tilgængelig for et bredere publikum.",
+        "rating": "★★★★☆",
+        "developed": {
+            "name": "Next.js",
+            "version": "14.3.0"
+        },
+        "database": {
+            "name": ".json file",
+            "version": "😁"
+        }
+    },
+    {
+        "id": 3,
+        "title": "Eksamensprojekt 'Virboghaveservice'",
+        "link": "https://github.com/thomsen1993/Virborg2",
+        "date": "27-May-2023 til 06-June-2023",
+        "content": "Dette var et eksamensprojekt for en haveservice virksomhed. Projektet omfattede udvikling af en webapplikation til virksomhedens tjenester og kundeadministration. Jeg arbejdede med API'er og administratordelen med mange PATCH, PUT og DELETE metoder.",
+        "rating": "★★★☆☆",
+        "developed": {
+            "name": "Next.js",
+            "version": "14.3.0"
+        },
+        "database": {
+            "name": "MondoDB - Express",
+            "version": "8.0"
+        }
+    },
+    {
+        "id": 4,
+        "title": "Eksamensprojekt 'FTA travel'",
+        "link": "https://github.com/thomsen1993/FTA",
+        "date": "07-June-2023 ikke færdigt",
+        "content": "Dette er et igangværende eksamensprojekt for et rejsebureau. Jeg arbejdede med API'er og administratordelen med mange PATCH, PUT og DELETE metoder samt en søgefunktion til at søge efter indhold på hjemmesiden, men desværre nåede jeg ikke at færdiggøre det.",
+        "rating": "★★★★☆",
+        "developed": {
+            "name": "Next.js",
+            "version": "14.3.0"
+        },
+        "database": {
+            "name": "MondoDB - Express",
+            "version": "8.0"
+        }
+    },
+    {
+        "id": 5,
+        "title": "Konklusion",
+        "link": "#",
+        "date": "",
+        "content": "I løbet af min praktikperiode arbejdede jeg på flere projekter, som forbedrede mine færdigheder inden for webudvikling og gav mig større selvtillid i at arbejde med API'er. Jeg udviklede en webshop for en virksomhed i Grenå, en personlig portfolio/CV hjemmeside med animationer og flersproget indhold, samt to eksamensprojekter for henholdsvis en haveservice og et rejsebureau, hvor jeg arbejdede med avancerede API-metoder og søgefunktioner. Før praktikken var jeg ikke tryg ved at kode med API'er, men nu føler jeg mig meget sikker og klar til at finde et job som webudvikler.",
+        "rating": "",
+        "developed": {
+            "name": "",
+            "version": ""
+        },
+        "database": {
+            "name": "",
+            "version": ""
+        }
+    }
+]
